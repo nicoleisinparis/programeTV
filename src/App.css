@@ -1,0 +1,52 @@
+.container {
+  font-family: "roboto", sans-serif;
+  width: 1024px;
+  height: auto;
+  margin: auto;
+}
+.time-photo {
+  display: flex;
+  align-items: center;
+}
+.programe {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+h3,
+h4,
+p {
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 35px;
+}
+.direct {
+  color: red;
+  position: relative;
+}
+.direct::before {
+  content: "•"; /* This creates a bullet */
+  position: absolute;
+  left: -10px; /* Adjust as needed */
+  color: red; /* Change this if you want a different color */
+}
+.hour {
+  display: flex;
+  flex-direction: row;
+}
